@@ -61,6 +61,8 @@ ul#menu {
 #map{
 	width:60%;
 	float:left;
+	margin-left: auto;
+	margin-right: auto;	
 }
 
 #form{
