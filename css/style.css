@@ -195,12 +195,13 @@ header{
 		margin-right: auto;
 		margin-left: auto;
 		display:block;
+		float:left;
 	}
 
 	#menu{
 		display:block;
 		padding:0;
-		text-align: center;
+		text-align: left;
 	}
 }
 
