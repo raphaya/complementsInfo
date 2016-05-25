@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="icon" type="image/png" href="favicon.png" />
 		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		
 		<script>
 		function initialize() {
 		  var mapProp = {
@@ -18,6 +19,7 @@
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
 		</script>
+
 	</head>
 	<body>
 		<header>
@@ -25,53 +27,53 @@
 				<img id="logo" src="./img/etoile_logo.png">
 			</div>
 			<div id="menuDiv" class="headerElement">
-				<ul id="menu_horizontal">
-					<li><a href="#">Accueil</a></li>
-					<li><a href="#">Titre 1</a></li>
-					<li><a href="#">Contact</a></li>
+				<ul id="menu">
+					<li><a href="https://www.nasa.gov/">La NASA</a></li>
+					<li><a href="https://www.google.com/sky/">Google Sky</a></li>
+					<li><a href="#form">Contact</a></li>
 					<li><input type="search" placeholder="Recherche" name="search"/></li>
 				</ul>
 			</div>
 		</header>
-		<div class="conteneur">
+		<div class="content">
 			<div id="corps">
-				<img id="img_body" src="./img/garrad.jpg">
+				<img id="imgMain" src="./img/garrad.jpg">
 				<h1>Définition étoile</h1>
 				<p>Astre doué d'un éclat propre, dû aux réactions thermonucléaires dont il est le siège. Objet formé de branches qui rayonnent à partir d'un point central ; ornement de cette forme : Une étoile en diamants. Représentation d'une étoile avec valeur de symbole : Des étoiles marquent les mots manquants.</p>
-				<div id="miniature">
-					<div class="mini">
+				<div id="liste_img">
+					<div class="miniature">
 						<img src="./img/Neutron-Stars.jpg">
-						<h3>Titre 1</h3>
-						<p>Description 1</p>
-					</div><div class="mini">
-						<img src="./img/images2.jpg">
-						<h3>Titre 2</h3>
-						<p>Description 2</p>			
-					</div><div class="mini">
-						<img src="./img/images2.jpg">
-						<h3>Titre 3</h3>
-						<p>Description 3</p>			
-					</div><div class="mini">
-						<img src="./img/images2.jpg">
-						<h3>Titre 4</h3>
-						<p>Description 4</p>			
+						<h3>Image 1</h3>
+						<p>Neutron stars collision</p>
+					</div><div class="miniature">
+						<img src="./img/Study-Suggests-Monstrous-Star-Collision-Wont-Occur-for-Billions-of-Years.jpg">
+						<h3>Image 2</h3>
+						<p>Study-Suggests-Monstrous-Star-Collision</p>			
+					</div><div class="miniature">
+						<img src="./img/etoile.jpg">
+						<h3>Image 3</h3>
+						<p>Etoile 3</p>			
+					</div><div class="miniature">
+						<img src="./img/backgroundimage.jpg">
+						<h3>Image 4</h3>
+						<p>Etoile 4</p>			
 					</div>
 				</div>
 			</div>
 			<div id="mapform">
 				<div id="map">
-					<h2>Titre h2</h2>
+					<h2>Google maps</h2>
 					<div id="googleMap" style="width:200px; height:200px;"></div>
 				</div>
 				<div id="form">
-					<h2>Titre h2</h2>
+					<h2>Formulaire</h2>
 					<div id="name">
 						<input type="text" name="firstname" placeholder="Prénom"/>
-						<input id="ln" type="text" name="lastname" placeholder="Nom"/>
+						<input id="lastname" type="text" name="lastname" placeholder="Nom"/>
 					</div>
 					<div id="birth">
 						<input type="date" name="date" placeholder="Date de naissance"/>
-						<input id="vn" type="text" name="city" placeholder="Vile de naissance"/>
+						<input id="city" type="text" name="city" placeholder="Vile de naissance"/>
 					</div>
 					<div id="last">
 						<input type="mail" name="email" placeholder="Adresse Email"/>
@@ -83,7 +85,7 @@
 			</div>
 		</div>
 		<footer>
-			<p id="owner">AYALA Raphaël</p>
+			<p id="author">AYALA Raphaël</p>
 		</footer>
 	</body>
 </html>

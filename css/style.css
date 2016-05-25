@@ -16,23 +16,23 @@ p{
 	text-align: justify;
 }
 
-ul#menu_horizontal li { 
+ul#menu li { 
 	display : inline;
 	padding : 0 0.5em;
 	text-align: center;
 }
 
-ul#menu_horizontal {
+ul#menu {
 	list-style-type : none;
 }
 
-.conteneur{
+.content{
 	display:block;
 	width:90%;
 	margin:2vw auto;
 }
 
-#img_body{
+#imgMain{
 	display:block;
 	width:100%;
 	margin-left: auto;
@@ -43,18 +43,18 @@ ul#menu_horizontal {
 	width: 30%;
 }
 
-.mini{
+.miniature{
 	display:inline-block;
 	width: 25%;
 	text-align: center;
 	margin:0;
 }
 
-.mini img{
+.miniature img{
 	width:60%;
 }
 
-.mini p{
+.miniature p{
 	text-align: center;
 }
 
@@ -92,11 +92,11 @@ textarea{
 	width:100%;
 }
 
-#ln{
+#lastname{
 	float:right;
 }
 
-#vn{
+#city{
 	float:right;
 }
 
@@ -112,16 +112,14 @@ footer{
 	margin-right: auto;
 }
 
-#owner{
+#author{
 	float:right;
 }
 
 header{
 	width:90%;
-	/*border-bottom: solid lightblue 1px;*/
 	margin-left: auto;
 	margin-right: auto;
-	/*height:9em;*/
 	display: block;
 }
 
@@ -130,7 +128,7 @@ header{
 }
 
 @media screen and (max-width: 900px){
-	.conteneur{
+	.content{
 		width:100%;
 	} 
 
@@ -140,7 +138,7 @@ header{
 		display:block;
 	}
 
-	.mini{
+	.miniature{
 		display:inline-block;
 		width: 50%;
 		text-align: center;
@@ -181,6 +179,7 @@ header{
 
 	#submitButton{
 		width:100%;
+		float: right;
 	}
 
 	form{
@@ -193,7 +192,7 @@ header{
 		display:block;
 	}
 
-	#menu_horizontal{
+	#menu{
 		display:block;
 		padding:0;
 		text-align: center;
@@ -201,7 +200,7 @@ header{
 }
 
 @media screen and (max-width: 640px){
-	.mini{
+	.miniature{
 		display:inline-block;
 		width: 100%;
 		text-align: center;
