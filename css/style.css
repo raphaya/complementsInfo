@@ -184,6 +184,7 @@ header{
 
 	form{
 		padding:1 1em;
+		width: 100%;
 	}
 
 	#menuDiv{
@@ -208,11 +209,13 @@ header{
 	}
 
 	#map{
-	width:80%;
+	width:100%;
+	float:center;
 	}
 
 	#form{
-		width:80%;
+		width:100%;
+		float:center;
 	}
 
 	input{
