@@ -34,7 +34,7 @@ ul#menu {
 
 #imgMain{
 	display:block;
-	width:100%;
+	width:65%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -59,12 +59,12 @@ ul#menu {
 }
 
 #map{
-	width:50%;
+	width:60%;
 	float:left;
 }
 
 #form{
-	width:50%;
+	width:40%;
 	float:right;
 }
 
