@@ -1,0 +1,238 @@
+html { 
+  margin:0;
+  padding:0;
+  background: url(image/garrad.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+html{
+	font-size: 62.5%;
+}
+
+h1{
+	font-size: 4vw;
+	margin:0;
+}
+
+body{
+	font-size: 1.6rem;
+	margin: 0;
+}
+
+p{
+	text-align: justify;
+}
+
+ul#menu_horizontal li { 
+	display : inline;
+	padding : 0 0.5em;
+	text-align: center;
+}
+
+ul#menu_horizontal {
+	list-style-type : none;
+}
+
+.body{
+	display:block;
+	width:90%;
+	margin:2vw auto;
+}
+
+#img_body{
+	display:block;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo{
+	width: 30%;
+}
+
+.img_liste{
+	display:inline-block;
+	width: 25%;
+	text-align: center;
+	margin:0;
+}
+
+.img_liste img{
+	width:60%;
+}
+
+.img_liste p{
+	text-align: center;
+}
+
+#map{
+	width:50%;
+	float:left;
+}
+
+#form{
+	width:50%;
+	float:right;
+}
+
+#name input{
+	width:45%;
+}
+
+#birth{
+	margin-top:1vw;
+}
+
+#birth input{
+	width:45%;
+}
+
+#last input{
+	width:100%;
+}
+
+#last{
+	margin-top:1vw;
+}
+
+textarea{
+	width:100%;
+}
+
+#ln{
+	float:right;
+}
+
+#vn{
+	float:right;
+}
+
+#mapform{
+	display: block;
+	margin-bottom: 20em;
+}
+
+footer{
+	width:90%;
+	border-top: solid lightblue 1px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#owner{
+	float:right;
+}
+
+header{
+	width:90%;
+	/*border-bottom: solid lightblue 1px;*/
+	margin-left: auto;
+	margin-right: auto;
+	/*height:9em;*/
+	display: block;
+}
+
+.headerElement{
+	display:inline-block;
+}
+
+@media screen and (max-width: 900px){
+	.body{
+		width:100%;
+	} 
+
+	#logo{
+		margin-right: auto;
+		margin-left: auto;
+		display:block;
+	}
+
+	.img_liste{
+		display:inline-block;
+		width: 50%;
+		text-align: center;
+		margin:0;
+	}
+
+	#sousbody h1{
+		padding: 0 0.5em;
+	}
+
+	#sousbody p{
+		padding: 0 0.5em;
+	}
+
+	#name input{
+		width:100%;
+	}
+
+	#birth{
+		margin-top:1vw;
+	}
+
+	#birth input{
+		width:100%;
+	}
+
+	#last input{
+		width:100%;
+	}
+
+	#last{
+		margin-top:1vw;
+	}
+
+	textarea{
+		width:100%;
+	}
+
+	#submitButton{
+		width:100%;
+	}
+
+	form{
+		padding:0 1em;
+	}
+
+	#menuDiv{
+		margin-right: auto;
+		margin-left: auto;
+		display:block;
+	}
+
+	#menu_horizontal{
+		display:block;
+		padding:0;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.img_liste{
+		display:inline-block;
+		width: 100%;
+		text-align: center;
+		margin:0;
+	}
+
+	#map{
+	width:100%;
+	}
+
+	#form{
+		width:100%;
+	}
+
+	input{
+		width:100%;
+	}
+
+	#menuDiv{
+		display:none;
+	}
+
+	#search{
+		display:none;
+	}
+
+}
