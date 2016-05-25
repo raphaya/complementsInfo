@@ -183,7 +183,7 @@ header{
 	}
 
 	form{
-		padding:0 1em;
+		padding:1 1em;
 	}
 
 	#menuDiv{
@@ -212,7 +212,7 @@ header{
 	}
 
 	#form{
-		width:100%;
+		width:80%;
 	}
 
 	input{
